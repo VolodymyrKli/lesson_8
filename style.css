@@ -1,0 +1,254 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-weight: 500;
+    font-family: Montserrat, sans-serif;
+    font-size: 16px;
+    line-height: 28px;
+    letter-spacing: 0.2px;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* header */
+
+.header {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.wrapper__header {
+    padding: 26px 40px 28px 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header__home-link {
+    display: flex;
+    justify-content: left;
+}
+
+.header__list {
+    display: flex;
+    justify-content: end;
+
+}
+
+.header__item + .header__item {
+    margin-left: 94px;
+}
+
+.header__item-home {
+    color: #FA4A0C;
+}
+
+/* header end */
+
+/* hero */
+
+.hero {
+    background: url(./img/Rectangle\ 48.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 0 auto;
+    padding: 73px 0 146px 0;
+}
+
+.wrapper__hero {
+   text-align: center;
+}
+
+
+.hero__paragraf {
+    color: #F6F6F6;
+    font-size: 24px;
+    line-height: 36px;
+    letter-spacing: 0.1px;
+}
+
+.hero__h {
+    font-family: Poppins, sans-serif;
+    color: #FFF;
+    font-size: 58px;
+    line-height: 80px;
+}
+
+.hero__info {
+    color: #F6F6F6;
+    font-size: 24px;
+    line-height: 38px; 
+    letter-spacing: 0.2px;
+    margin-bottom: 54px;
+}
+
+.hero__batton {
+    display: flex;
+    justify-content: center;
+}
+
+.hero__batton-playstore {
+    color: #FFF;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 36px; 
+    letter-spacing: 0.1px;
+    padding: 16px 0px;
+    width: 236px;
+    border-radius: 30px;
+    background: #FA4A0C;
+    margin-right: 34px;
+}
+
+/* hero end */
+
+/* mobile section */
+
+.mobile__section {
+    max-width: 1440px;
+    margin: -280px auto 0;
+}
+
+.wrapper__mobile {
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    padding: 0 250px;
+    margin-right: 380px;
+}
+
+.mobile__img {
+    margin-right: -230px;
+}
+
+/* mobile section end */
+
+/* step section */
+
+.steps__title {
+    display: flex;
+    justify-content: center;
+    color: #000;
+    font-family: Poppins;
+    font-size: 44px;
+    font-weight: 600;
+    line-height: 36px; 
+    letter-spacing: 0.1px;
+    margin-top: 72px;
+}
+
+.steps__figure {
+    display: flex;
+    justify-content: space-between;
+}
+
+.steps__figure_second {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row-reverse; 
+    margin: 0 80px 0 100px;
+} 
+
+
+.steps__figcap { 
+    padding-top: 180px;
+}
+
+.steps__title2 {
+    color: #FA4A0C;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 36px; 
+}
+
+.steps__main-info {
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 57px; 
+}
+
+.steps__info {
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 38px; 
+}
+
+/* step section end */
+
+.download {
+    background: url(./img/Rectangle\ 47.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 0 auto;
+    padding: 73px 0 146px 0;
+}
+
+.wrapper__download {
+    text-align: center;
+}
+
+.wrapper__download__h {
+    color: #fff;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 57px; 
+}
+
+.download__info {
+    color: #fff;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 38px; 
+}
+
+.download__batton {
+    margin: 78px 0 70px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.download__batton-playstore {
+    color: #FFF;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 36px; 
+    letter-spacing: 0.1px;
+    padding: 16px 0px;
+    width: 236px;
+    border-radius: 30px;
+    background: #FA4A0C;
+    margin-right: 34px;
+}
+
+.footer {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.wraper__footer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 1210px;
+    height: 133px;
+    margin: 40px 115px;
+}
+
+.footer__list{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+}
